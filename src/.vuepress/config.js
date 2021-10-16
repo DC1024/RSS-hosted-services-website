@@ -17,14 +17,23 @@ module.exports = {
       '/guide/deployment.md',
     ],
     navbar: [
-      // 导航栏
+      // 单个导航栏
     {
-        text: 'Open Source',
+        text: 'VuePress',
+        link: 'https://v2.vuepress.vuejs.org/zh/',
+    },
+    {
+        text: 'Github',
         link: 'https://github.com/DC1024/RSS-hosted-services-website',
     },
     {
         text: 'DCCHEN',
         link: 'http://blog.dcchen.top/',
+    },
+       // 单个导航组
+    {
+        text: '语言 / Language',
+        children: ['../', '/en/'],
     },
     ],
   },
