@@ -1,6 +1,6 @@
 ---
 home: true
-title: Home
+title: 简体中文
 heroImage: https://git.tt-rss.org/repo-avatars/3-9e1f83d2fac71ea097eeaf1776137cde
 actions:
   - text: 免费试用
