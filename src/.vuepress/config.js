@@ -2,6 +2,7 @@ module.exports = {
   lang: 'zh-CN',
   title: 'RSS托管服务',
   description: 'Free try and cheap',
+  base: '/RSS-hosted-services-website/'
   head: [['link', { rel: 'icon', href: 'https://git.tt-rss.org/repo-avatars/3-9e1f83d2fac71ea097eeaf1776137cde' }]],
 
   themeConfig: {
