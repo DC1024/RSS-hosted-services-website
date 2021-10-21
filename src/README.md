@@ -3,6 +3,9 @@ home: true
 title: 简体中文
 heroImage: https://notion-avatar.vercel.app/api/svg/eyJmYWNlIjoxLCJub3NlIjozLCJtb3V0aCI6OSwiZXllcyI6NywiZXllYnJvd3MiOjAsImdsYXNzZXMiOjEwLCJoYWlyIjo2LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjB9
 actions:
+  - text: 维护明细
+    link: /maintain/
+    type: primary
   - text: RSS托管服务
     link: /rss/
     type: secondary
@@ -15,7 +18,7 @@ features:
   - title: 为何收费 
     details: 目前我是一个人在维护这些服务，精力有限。不得不设置收费门槛。
   - title: 收费用途
-    details: 得到的费用将用于服务器的日常支出与升级，如升级硬盘，购置更好地散热等。
+    details: 得到的费用将用于服务器的日常支出与升级，如升级硬盘，购置更好地散热等。具体的收入支出可以在「维护明细」里看到。
   - title: 自行部署
     details: 除了付费托管，我们也提供付费部署。并且在各个项目的帮助文档内提供了自行部署的教程。
   - title: 关于开源

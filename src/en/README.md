@@ -1,26 +1,29 @@
 ---
 home: true
 title: English
-heroImage: https://git.tt-rss.org/repo-avatars/3-9e1f83d2fac71ea097eeaf1776137cde
+heroImage: https://notion-avatar.vercel.app/api/svg/eyJmYWNlIjoxLCJub3NlIjozLCJtb3V0aCI6OSwiZXllcyI6NywiZXllYnJvd3MiOjAsImdsYXNzZXMiOjEwLCJoYWlyIjo2LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjB9
 actions:
-  - text: 免费试用
-    link: /guide/getuse.md
+  - text: 维护明细
+    link: /maintain/
     type: primary
-  - text: 帮助文档
+  - text: RSS托管服务
+    link: /rss/
+    type: secondary
+  - text: ASF挂卡服务
     link: /guide/
     type: secondary
 features:
-  - title: 强力驱动
-    details: 基于TTRSS项目构建，继承其强大功能，实现你所想像。
-  - title: 多种主题
-    details: 多种主题自由切换，满足用户的风格需求。
-  - title: 多端支持
-    details: 基于网页端，支持Windows、Linux、macOS、Android、iOS等多个操作系统。
-  - title: 规则过滤
-    details: 创建多种自定义规则，过滤无用内容。
-  - title: RSSHUB支持
-    details: 提供RSSHUB服务，拓展服务范围。
-  - title: 脱离第三方平台
-    details: 纯粹阅读体验，无广告，无骚扰。
-footer: Open Source | DCchen
+  - title: 为何开放
+    details: 在我的创作生活中，收到了不少对教程的疑问。面对许多疑问我无法 一 一 解答，那么选择开放我的服务是最好的选择。
+  - title: 为何收费 
+    details: 目前我是一个人在维护这些服务，精力有限。不得不设置收费门槛。
+  - title: 收费用途
+    details: 得到的费用将用于服务器的日常支出与升级，如升级硬盘，购置更好地散热等。具体的收入支出可以在「维护明细」里看到。
+  - title: 自行部署
+    details: 除了付费托管，我们也提供付费部署。并且在各个项目的帮助文档内提供了自行部署的教程。
+  - title: 关于开源
+    details: 本站提供的绝大多数服务都基于开源项目，为了遵循且尊重开源，针对每个项目编写了其对应的部署的教程。
+  - title: 遵循开源
+    details: 为了对开源表示敬意，此站点已在 Github 开源，采用 MIT 许可。
+footer: MIT Licensed | Open Source | DCchen
 ---
