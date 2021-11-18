@@ -1,6 +1,6 @@
 module.exports = {
   lang: 'zh-CN',
-  title: '托管服务',
+  title: '服务',
   description: 'Free try and cheap',
   head: [['link', { rel: 'icon', href: 'https://notion-avatar.vercel.app/api/svg/eyJmYWNlIjoxLCJub3NlIjozLCJtb3V0aCI6OSwiZXllcyI6NywiZXllYnJvd3MiOjAsImdsYXNzZXMiOjEwLCJoYWlyIjo2LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjB9' }]],
 
@@ -16,6 +16,12 @@ module.exports = {
     // 侧边栏对象
     // 不同子路径下的页面会使用不同的侧边栏
     sidebar: {
+      '/like/': [
+        {
+          text: '导航站',
+          children: ['/like/README.md','/like/rpi.md'],
+        },
+      ],
       '/rss/': [
         {
           text: 'RSS',
@@ -49,7 +55,7 @@ module.exports = {
        // 单个导航组
       {
         text: '语言 / Language',
-        children: ['../', '/en/', '/klingon/'],
+        children: ['/', '/language/en/', '/language/klingon/'],
     },
     {
         text: '基于',

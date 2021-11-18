@@ -3,14 +3,17 @@ home: true
 title: 简体中文
 heroImage: https://notion-avatar.vercel.app/api/svg/eyJmYWNlIjoxLCJub3NlIjozLCJtb3V0aCI6OSwiZXllcyI6NywiZXllYnJvd3MiOjAsImdsYXNzZXMiOjEwLCJoYWlyIjo2LCJhY2Nlc3NvcmllcyI6MCwiZGV0YWlscyI6MCwiYmVhcmQiOjAsImZsaXAiOjB9
 actions:
-  - text: 维护明细
-    link: /maintain/
+  - text: 导航站
+    link: /like/
     type: primary
-  - text: RSS托管服务
+  - text: RSS服务
     link: /rss/
     type: secondary
-  - text: ASF挂卡服务
-    link: /guide/
+  - text: ASF服务
+    link: /asf/
+    type: secondary
+  - text: 维护明细
+    link: /maintain/
     type: secondary
 features:
   - title: 为何开放
